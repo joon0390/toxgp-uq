@@ -1,0 +1,23 @@
+{
+  "config": {
+    "seed": 13,
+    "pca_dim": 128,
+    "morgan_bits": 1024,
+    "morgan_radius": 2,
+    "max_train": 8000,
+    "n_restarts": 0,
+    "constant_scale": 1.0,
+    "white_noise": 0.001,
+    "w_tan": 1.0,
+    "w_rbf": 0.8,
+    "w_mat": 0.4,
+    "rbf_length_scale": 2.0,
+    "matern_length_scale": 2.0,
+    "matern_nu": 1.5,
+    "interval_level": 0.9,
+    "kernel_summary_csv": "kernel_suite_outputs\\summary_metrics.csv"
+  },
+  "train_rows": 8000,
+  "test_rows": 837,
+  "fitted_kernel": "1.69**2 * TanimotoRBFMaternKernel() + WhiteKernel(noise_level=1e-05)"
+}

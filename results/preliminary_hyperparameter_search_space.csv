@@ -1,0 +1,11 @@
+parameter,candidate_values,notes
+w_tan,"0.5|1.0|1.5","preliminary notebook grid"
+w_rbf,"0.3|0.8|1.2","preliminary notebook grid"
+w_mat,"0.3|0.8|1.2","preliminary notebook grid"
+rbf_length_scale,"0.5|1.0|2.0","preliminary notebook grid"
+matern_length_scale,"0.5|1.0|2.0","preliminary notebook grid"
+matern_nu,"1.5|2.5","preliminary notebook grid"
+constant_kernel_scale,"0.5|1.0|1.5","preliminary notebook grid"
+white_kernel_noise,"1e-2|1e-3|1e-4","preliminary notebook grid"
+subset_size,"1000","used for preliminary search"
+selection_objective,"log marginal likelihood","not directly F1/Brier optimized"

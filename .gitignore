@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+.env
+
+.ipynb_checkpoints/
+
+# Dataset files are not included in the GitHub repository.
+data/
+
+outputs/
+*.log
+
+# Large model bundles should be shared through Git LFS or release assets.
+*.pkl
+*.joblib
+
+.DS_Store
+Thumbs.db

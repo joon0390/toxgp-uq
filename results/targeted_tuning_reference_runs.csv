@@ -1,0 +1,5 @@
+run_label,morgan_radius,pca_dim,profile,constant_scale,white_noise,w_tan,w_rbf,w_mat,rbf_length_scale,matern_length_scale,matern_nu,n_restarts_optimizer,AUC,ACC,F1,Brier
+radius4_robust,4,128,robust,1.0,0.001,1.0,0.8,0.4,1.0,1.0,1.5,0,0.8800,,0.7946,0.1395
+radius2_robust,2,128,robust,1.0,0.001,1.0,0.8,0.4,1.0,1.0,1.5,0,0.8916,,0.7950,0.1342
+radius2_tan_dominant,2,128,tan_dominant,1.0,0.001,1.3,0.5,0.5,1.0,1.0,1.5,0,0.8663,,0.7869,0.1486
+radius2_longscales_nr0,2,128,final_candidate,1.0,0.001,1.0,0.8,0.4,2.0,2.0,1.5,0,0.87725376161117,0.8291517323775388,0.8033012379642366,0.14740664319758684

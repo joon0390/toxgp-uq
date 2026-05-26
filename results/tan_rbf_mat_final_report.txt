@@ -1,0 +1,15 @@
+AUC=0.8773 | ACC=0.8292 | F1=0.8033 | Brier=0.1474
+Best-threshold=0.488
+
+Confusion Matrix:
+[[402  76]
+ [ 67 292]]
+
+              precision    recall  f1-score   support
+
+           0     0.8571    0.8410    0.8490       478
+           1     0.7935    0.8134    0.8033       359
+
+    accuracy                         0.8292       837
+   macro avg     0.8253    0.8272    0.8261       837
+weighted avg     0.8298    0.8292    0.8294       837
