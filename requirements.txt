@@ -1,3 +1,9 @@
+# Coded with Python 3.12.3.
+#
+# RDKit wheels are platform-dependent. If pip installation fails,
+# install RDKit from conda-forge instead:
+#   conda install -c conda-forge rdkit
+
 joblib==1.4.2
 matplotlib==3.10.0
 numpy==1.26.4
